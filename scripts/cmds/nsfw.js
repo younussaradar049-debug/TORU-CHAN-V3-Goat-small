@@ -5,7 +5,7 @@ module.exports = {
     name: "nsfw",
     aliases: [],
     version: "1.1",
-    author: "Hridoy ki",
+    author: "Hridoy",
     countDown: 10,
     role: 0,  // 0 = সবাই, চাইলে 1 করে admin only করো
     shortDescription: "Interactive NSFW pic selector",
