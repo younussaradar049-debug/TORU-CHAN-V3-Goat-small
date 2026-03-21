@@ -4,7 +4,7 @@ const path = require("path");
 
 module.exports = {
   config: {
-    name: "waifu",
+    name: "hwaifu",
     version: "1.1",
     author: "Hridoy",
     countDown: 5,
