@@ -12,7 +12,7 @@ module.exports = {
     role: 0,
     shortDescription: "Country info with flag",
     longDescription: "Get full country info + flag image",
-    category: "Ai",
+    category: "AI",
     guide: {
       en: "{pn}country <name>"
     }
