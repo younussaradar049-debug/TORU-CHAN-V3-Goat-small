@@ -8,8 +8,8 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Random Kanye West quote" },
     longDescription: { en: "Get a random Kanye West quote" },
-    category: "fun",
-    guide: { en: "+kanye" }
+    category: "AI",
+    guide: { en: ".quotes2" }
   },
 
   onStart: async function({ message }) {
