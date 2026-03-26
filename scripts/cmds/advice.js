@@ -8,8 +8,8 @@ module.exports = {
     role: 0,
     shortDescription: { en: "Random advice" },
     longDescription: { en: "Get a random piece of advice" },
-    category: "fun",
-    guide: { en: "+advice" }
+    category: "AI",
+    guide: { en: ".advice" }
   },
 
   onStart: async function({ message }) {
