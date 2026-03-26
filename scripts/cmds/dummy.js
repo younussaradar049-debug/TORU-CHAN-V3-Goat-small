@@ -6,7 +6,7 @@ module.exports = {
  config: {
  name: "dummy",
  version: "1.1",
- author: "Chitron Bhattacharjee",
+ author: "Hridoy",
  countDown: 5,
  role: 0,
  shortDescription: { en: "Generate dummy text image with optional background color" },
