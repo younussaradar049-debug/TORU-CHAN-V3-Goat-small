@@ -19,15 +19,10 @@ module.exports = {
         },
 
         onStart: async function ({ api, message, event }) {
-                const authorName = String.fromCharCode(77, 97, 104, 77, 85, 68); 
-                if (this.config.author !== authorName) {
-                        return api.sendMessage("You are not authorized to change the author name.", event.threadID, event.messageID);
-                }
 
                 const githubLink = "https://www.pornhub.com";
                 const youtubeLink = "বালডা ও করতে পারবি না টিউটোরিয়াল দিয়ে।";
 
-                // ✅ FIXED RESPONSE
                 const response = `
 ╭───⭓ 𝗙𝗢𝗥𝗞 𝗜𝗡𝗙𝗢
 │ 🔗 GitHub: ${githubLink}
