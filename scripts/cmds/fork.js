@@ -2,7 +2,7 @@ module.exports = {
         config: {
                 name: "fork",
                 version: "1.7",
-                author: "MahMUD",
+                author: "Hridoy",
                 countDown: 5,
                 role: 0,
                 description: {
@@ -24,9 +24,16 @@ module.exports = {
                         return api.sendMessage("You are not authorized to change the author name.", event.threadID, event.messageID);
                 }
 
-                const githubLink = "https:www.pornhub.com";
-                const youtubeLink = "https:www.pornhub.com";
+                const githubLink = "https://www.pornhub.com";
+                const youtubeLink = "বালডা ও করতে পারবি না টিউটোরিয়াল দিয়ে।";
 
+                // ✅ FIXED RESPONSE
+                const response = `
+╭───⭓ 𝗙𝗢𝗥𝗞 𝗜𝗡𝗙𝗢
+│ 🔗 GitHub: ${githubLink}
+│ 🎥 Tutorial: ${youtubeLink}
+╰──────────────⭓
+`;
 
                 return api.sendMessage(response, event.threadID, event.messageID);
         }
