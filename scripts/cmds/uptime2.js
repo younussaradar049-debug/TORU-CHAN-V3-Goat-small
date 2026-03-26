@@ -49,7 +49,7 @@ module.exports = {
     author: "saimx69x [modified by Apon]",
     countDown: 10,
     role: 0,
-    category: "utility",
+    category: "System",
     guide: { en: "Shows dynamic system and bot information." }
   },
 
