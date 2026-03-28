@@ -3,7 +3,7 @@ const { getStreamsFromAttachment } = global.utils;
 module.exports = {
   config: {
     name: "callad",
-    aliases: ["kakashi", "hridoy"],
+    aliases: ["calladmin","kakashi", "hridoy"],
     version: "6.0.0",
     author: "Hridoy",
     countDown: 5,
