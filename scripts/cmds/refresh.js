@@ -1,6 +1,6 @@
 module.exports.config = {
     name: "refresh",
-    version: "1.0",
+    version: "1.0.2",
     hasPermssion: 0,
     credits: "Hridoy",
     description: "Send a giant frog-snake refresh message",
@@ -9,9 +9,7 @@ module.exports.config = {
     cooldowns: 5
 };
 
-// Single message block shared for both onStart and run
 const refreshMessage = `🐸
-
 
 
 
@@ -3096,12 +3094,16 @@ const refreshMessage = `🐸
 
 🐍`;
 
-// onStart function
-module.exports.onStart = async function({ api, event }) {
-    return api.sendMessage(refreshMessage, event.threadID);
+async function sendRefresh(api, threadID, messageID = null) {
+    return api.sendMessage(refreshMessage, threadID, messageID);
+}
+
+// ⚠️ onStart এ event নাই, তাই remove বা safe কর
+module.exports.onStart = async function({ api }) {
+    console.log("Refresh command loaded successfully ✅");
 };
 
-// run function for normal command usage
+// Normal command
 module.exports.run = async function({ api, event }) {
-    return api.sendMessage(refreshMessage, event.threadID, event.messageID);
+    return sendRefresh(api, event.threadID, event.messageID);
 };
