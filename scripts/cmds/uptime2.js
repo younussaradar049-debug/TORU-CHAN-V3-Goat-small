@@ -21,8 +21,8 @@ function downloadGif(url, dest) {
 
 module.exports = {
   config: {
-    name: "uptime",
-    aliases: ["botstats"],
+    name: "uptime2",
+    aliases: ["botstats2"],
     version: "1.0",
     role: 0,
     author: "Hridoy",
@@ -86,11 +86,15 @@ module.exports = {
 
       // ===== RANDOM GIF =====
       const gifURLs = [
-        "https://i.imgur.com/Xw6JTfn.gif",
-        "https://i.imgur.com/KUFxWlF.gif",
-        "https://i.imgur.com/KrEez4A.gif",
-        "https://i.imgur.com/FV9krHV.gif",
-        "https://i.imgur.com/lFrFMEn.gif"
+  "https://i.imgur.com/KWbXV92.jpeg",
+  "https://i.imgur.com/5FY4ZBC.jpeg",
+  "https://i.imgur.com/1upcLBv.jpeg",
+  "https://i.imgur.com/pHbsaM5.jpeg",
+  "https://i.imgur.com/YSUo4ex.jpeg",
+  "https://i.imgur.com/Damd4Za.jpeg",
+  "https://i.imgur.com/OiLJUxL.jpeg",
+  "https://i.imgur.com/6T760Fu.jpeg",
+  "https://i.imgur.com/P8gi4k8.jpeg"
       ];
 
       const randomGifURL = gifURLs[Math.floor(Math.random() * gifURLs.length)];
