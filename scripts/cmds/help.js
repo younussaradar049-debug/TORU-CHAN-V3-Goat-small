@@ -108,16 +108,16 @@ module.exports = {
 
     // ===== RANDOM GIF =====
     const gifURLs = [
-      "https://i.imgur.com/Xw6JTfn.gif",
+      "https://i.imgur.com/zex8uo7.gif",
+      "https://i.imgur.com/4ki8eBI.gif",
+      "https://i.imgur.com/AMKQCJc.gif",
+      "https://i.imgur.com/rkjO7YV.gif",
+      "https://i.imgur.com/SgNPn8E.gif",
+      "https://i.imgur.com/u3qB5y2.gif",
       "https://i.imgur.com/KUFxWlF.gif",
-      "https://i.imgur.com/KrEez4A.gif",
       "https://i.imgur.com/FV9krHV.gif",
       "https://i.imgur.com/lFrFMEn.gif",
-      "https://i.imgur.com/KbcCZv2.gif",
-      "https://i.imgur.com/QC7AfxQ.gif",
-      "https://i.imgur.com/TtAOEAO.gif",
-      "https://i.imgur.com/mW0yjZb.gif",
-      "https://i.imgur.com/KQBcxOV.gif"
+      "https://i.imgur.com/KrEez4A.gif"
     ];
 
     const randomGifURL = gifURLs[Math.floor(Math.random() * gifURLs.length)];
